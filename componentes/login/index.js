@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Botao from "../botao";
 import { useState } from "react";
 import Link from "next/link";
@@ -17,7 +17,7 @@ export default function Login(){
     return (
         <section className={`paginaLogin paginaPublica`}>
            <div className="logoContainer">
-                <Image src={imagemLogo} alt="Logotipo" fill/>
+                <Image src={imagemLogo} alt="Logotipo" layout="fill" className="img"/>
             </div>
 
             <div className="conteudoPaginaPublica">

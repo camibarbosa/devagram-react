@@ -8,7 +8,6 @@
 html, body, #_next {
   height: 100%;
   margin: 0;
-  padding: 0;
 }
 
 //estilo padrao
@@ -18,7 +17,7 @@ html, body, #_next {
 }
 
 .oculto {
-  display: none;
+  display: none !important;
 }
 
 input {
